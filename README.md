@@ -15,7 +15,7 @@ CAN Bus driver:
 
 
 Configure CAN:  
-`sudo ip link set can0 type can bitrate 500000` git 
+`sudo ip link set can0 type can bitrate 500000` 
 
 Link UP:  
 `sudo ip link set can0 up`  
