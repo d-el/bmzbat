@@ -57,7 +57,7 @@ try:
             imin = values.index(vmin) + 1
             vd = vmax - vmin
             vbat = sum(values)
-            print(f"vBat {vbat/100 :.02f}V, Delta {vd}mV, Max[{imax}] {vmax}mV, Min[{imin}] {vmin}mV, {values}")
+            print(f"vBat {vbat/1000 :.02f}V, Delta {vd}mV, Max[{imax}] {vmax}mV, Min[{imin}] {vmin}mV, {values}")
             del tpdoData[TPDO_cells_voltage_03]
             del tpdoData[TPDO_cells_voltage_47]
             del tpdoData[TPDO_cells_voltage_811]
